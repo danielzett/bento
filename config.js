@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Daniel',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '6a1bdd32f2b1a2b40a4a1e9d79e6050d', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '42.077362',
+	defaultLongitude: '-73.952330',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -43,7 +43,7 @@ const CONFIG = {
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
-	hourDarkThemeActive: '18:30',
+	hourDarkThemeActive: '12:30',
 	hourDarkThemeInactive: '07:00',
 
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
@@ -53,9 +53,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'Login',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'http://pgsdc01:81/app/webclock/#/EmployeeLogOn/%20/1',
 		},
 		{
 			id: '2',
