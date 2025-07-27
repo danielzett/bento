@@ -14,7 +14,7 @@ const CONFIG = {
 	name: 'Daniel',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -30,7 +30,7 @@ const CONFIG = {
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
-
+	//location: Saugerties, NY:
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '42.077362',
 	defaultLongitude: '-73.952330',
@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
